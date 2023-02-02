@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'droid';
+    src: url('fontes/idroid.otf') format(opentype);
+}
+
+body {
+    background: #4BF9AA;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+header {
+    background-image: linear-gradient(to top, #087800, #0DC700);
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.29);
+    margin: -20px -8px 0px -8px;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 25px;
+}
+
+nav {
+    margin-top: 50px;
+    text-align: left;
+    padding-left: 5px;
+    margin-left: -30px;
+}
+
+nav > a {
+    font-size: 17px;
+    color: white;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.411);
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+nav > a:hover {
+    background: rgb(0, 98, 0);
+    color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.158);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+iframe {
+    background: rgb(0, 102, 0);
+    padding: 10px;
+    margin-left: -20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+section {
+    background: white;
+    width: 420px;
+    height: auto;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.29);
+    padding: 1px 20px 10px 20px;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #38f25754, white);
+    color: #30ad68;
+    font-family: 'droid';
+    font-size: 20px;
+    text-indent: 0px;
+}
+
+div {
+    background: #b6fddd;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.29);
+    border-radius: 10px;
+    height: auto;
+    margin-top: -10px;
+    padding-right: -100px;
+}
+
+h3 {
+    background: #44DB69;
+    color: white;
+    font-size: 15px;
+    width: 420px;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    margin-left: -20px;
+    margin-top: -20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+aside {
+    background: rgba(255, 255, 255, 0);
+    width: 420px;
+    height: auto;
+    margin: auto;
+}
+
+footer {
+    background: rgb(1, 75, 1);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 10px -8px -10px -10px;
+}
+
+ol > p{
+    margin-left: -47px;
+    margin-right: -10px;
+    display: inline-block;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
