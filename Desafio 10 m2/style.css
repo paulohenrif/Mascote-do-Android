@@ -107,7 +107,8 @@ aside {
 }
 
 aside > ul {
-    list-style-position: inside:
+    list-style-type: '\10004\00A0';
+    list-style-position: inside;
     columns: 2;
 }
 
