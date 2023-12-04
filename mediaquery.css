@@ -1,0 +1,14 @@
+@media (min-width: 650px) {
+    section {
+        width: 500px;
+    }
+    img {
+        width: 500px;
+    }
+    h3 {
+        width: 500px;
+    }
+    iframe {
+        width: 520px;
+    }
+}
